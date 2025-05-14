@@ -24,6 +24,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
     // Todo: 인증 관련 provider를 등록하세요.
     // - AuthService: 로그인 및 사용자 검증 로직을 담당합니다.
     // - JwtStrategy: JWT 토큰 검증을 위한 전략을 구현합니다.
+    AuthService,
+    JwtStrategy,
   ],
 })
-export class AuthModule {}
+export class AuthModule { }
